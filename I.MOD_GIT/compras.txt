@@ -1,0 +1,5 @@
+Frutas,
+Verduras,
+Carne,
+Pescado,
+Pan,
