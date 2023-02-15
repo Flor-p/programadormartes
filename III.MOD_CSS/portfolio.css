@@ -1,0 +1,15 @@
+.container-fluid{
+	height: 5px;
+	display: inline-flex;
+	align-content: stretch;
+	align-content:flex-start ;
+	align-content: flex-end;
+}
+
+h1, p {
+	width: 80%;
+	margin: 0px;
+	font-size: 50px;
+	font-family: font-family: 'Abril Fatface', cursive;
+}
+
