@@ -10,24 +10,24 @@
 
 <body>
     <script>
-        const transporte = ["pie", "bicicleta", "colectivo", "auto", "avión"];
+        const distancia = ["pie", "bicicleta", "colectivo", "auto", "avión"];
 
-        console.log(transporte);
-
-
-        function transporte(distance) {
-            if (distance < 1000) {
+        if (distancia) {
+            if (distancia < 1000) {
                 return "pie";
-            } else if (distance < 10000) {
+            } else if (distancia < 10000) {
                 return "bicicleta";
-            } else if (distance < 30000) {
+            } else if (distancia < 30000) {
                 return "colectivo";
-            } else if (distance < 100000) {
+            } else if (distancia < 100000) {
                 return "auto";
-            } else {
+            } else if (distancia < 1000000) {
                 return "avión";
             }
         }
+
+        console.log(distancia);
+
     </script>
 
 
@@ -35,3 +35,4 @@
 </body>
 
 </html>
+
