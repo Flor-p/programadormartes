@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const transporte = ["pie", "bicicleta", "colectivo", "auto", "avión"];
+
+        console.log(transporte);
+
+
+        function transporte(distance) {
+            if (distance < 1000) {
+                return "pie";
+            } else if (distance < 10000) {
+                return "bicicleta";
+            } else if (distance < 30000) {
+                return "colectivo";
+            } else if (distance < 100000) {
+                return "auto";
+            } else {
+                return "avión";
+            }
+        }
+    </script>
+
+
+
+</body>
+
+</html>
