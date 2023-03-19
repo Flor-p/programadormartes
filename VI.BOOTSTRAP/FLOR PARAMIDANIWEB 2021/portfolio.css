@@ -1,0 +1,10 @@
+.container-fluid{
+    background-color: black;
+    background-image: url(img/fondo-portfolio.png);
+background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 120px;
+    padding-right:120px;
+    padding-top: 100px;
+    padding-bottom:400px;
+}

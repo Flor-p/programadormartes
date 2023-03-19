@@ -1,0 +1,27 @@
+form {
+    padding-left: 120px;
+    padding-right:120px;
+    padding-top: 100px;
+    padding-bottom:100px;
+    background-color:black;
+    background-image: url(img/fondo-logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;   
+}
+
+.row{
+padding-top: 100px;
+padding-bottom: 100px;
+padding-left:0px;
+font-family: 'Rajdhani', sans-serif;
+font-weight: 700;
+text-align: center;
+background-color:black;
+background-size: cover;
+color: white;
+line-height: normal;
+}
